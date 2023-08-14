@@ -12,6 +12,7 @@ const LoginForm = ({ changestate }) => {
   // const [registertion, setregistertion] = useState('false');
 
   const handleSubmit = (e) => {
+    /*
     e.preventDefault();
     // Simple validation
     if (!email) {
@@ -25,6 +26,7 @@ const LoginForm = ({ changestate }) => {
 
 
     // TODO: Handle login logic (authentication)
+    */
   };
 
   
@@ -64,7 +66,7 @@ const changestate2 = ()=>{
           </div>
           <div className="mv3">
             <button className="b br2 ph4 input-reset bg-transparent pointer hover-light-grey tc w-100" type="submit">
-              Login
+            <Link to='./main' className="link dim black db" onClick={changestate2}>Login</Link>
             </button>
           </div>
         </form>
