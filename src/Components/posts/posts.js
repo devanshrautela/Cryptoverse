@@ -9,6 +9,7 @@ import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import Post from '../post/post';
 const Posts = () => {
   const [open, setOpen]=useState(false);
   const [image, setImage]=useState('');
@@ -64,53 +65,53 @@ const Posts = () => {
                   <div className="profileHead">
                       <img src={profile_pic} className="Avatar" alt="img"/>
                       <h1>User Name</h1>
-                      <div class="inputForUpload">
+                      <div className="inputForUpload">
                         <input onChange={handleChange} type="file" accept="image/*" className='four' />
                         <textarea value={caption} onChange={(e) => setCaption(e.target.value)} rows="4" placeholder={`What's on your mind, user name`} />
                       </div>
-                      <div class={`previewImage ${!image && "vanish"}`}>
+                      <div className={`previewImage ${!image && "vanish"}`}>
                         <img src={imageURL} className="previewImaage" alt="preview"/>
                       </div>
                   </div>
                   <div className="publishOptions">
-                        <div class="left">
+                        <div className="left">
                             <h1>Add to your post</h1>
                         </div>
-                        <div class="right">
-                            <i class="Icon roomIcon" onClick={uploadFileWithClick} ><VideoCameraBackIcon sx={{width:36,height:36,color:"white"}}/></i>
-                            <i class="Icon photoIcon" onClick={uploadFileWithClick} ><PhotoLibraryIcon sx={{width:36,height:36,color:"white"}}/></i>
-                            <i class="Icon friendsIcon" ><GroupAddIcon sx={{width:36,height:36,color:"white"}}/></i>
-                            <i class="Icon feelingIcon" ><EmojiEmotionsOutlinedIcon sx={{width:36,height:36,color:"white"}}/></i>
-                            <i class="Icon tagIcon" ><AddLocationIcon sx={{width:36,height:36,color:"white"}}/></i>
-                            <i class="Icon moreIcon" ><MoreHorizIcon sx={{width:36,height:36,color:"white"}}/></i>
+                        <div className="right">
+                            <i className="Icon roomIcon" onClick={uploadFileWithClick} ><VideoCameraBackIcon sx={{width:36,height:36,color:"white"}}/></i>
+                            <i className="Icon photoIcon" onClick={uploadFileWithClick} ><PhotoLibraryIcon sx={{width:36,height:36,color:"white"}}/></i>
+                            <i className="Icon friendsIcon" ><GroupAddIcon sx={{width:36,height:36,color:"white"}}/></i>
+                            <i className="Icon feelingIcon" ><EmojiEmotionsOutlinedIcon sx={{width:36,height:36,color:"white"}}/></i>
+                            <i className="Icon tagIcon" ><AddLocationIcon sx={{width:36,height:36,color:"white"}}/></i>
+                            <i className="Icon moreIcon" ><MoreHorizIcon sx={{width:36,height:36,color:"white"}}/></i>
                         </div>
                     </div>
-                    <button type="submit" class={`postButton ${caption.length < 1 && "disabled"} ${imageURL !== "" && "visible"}`}>Post</button>
+                    <button type="submit" className={`postButton ${caption.length < 1 && "disabled"} ${imageURL !== "" && "visible"}`}>Post</button>
                 </div>
             </Dialog>
-            <div class="imageupload__container">
-                <div class="postArea">
-                    <img src={profile_pic} class="Avatar" />
+            <div className="imageupload__container">
+                <div className="postArea">
+                    <img src={profile_pic} className="Avatar" alt="" />
                     <input value={caption} onChange={(e) => setCaption(e.target.value)} onClick={handleClickOpen('body')} placeholder={`What's on your mind, user name`} />
                 </div>
-                <div class="hr" />
-                <div class="options">
-                    <div class="liveVideo" onClick={handleClickOpen('body')}>
-                        <i class="liveVideoIcon" ><VideoCameraBackIcon sx={{width:36,height:36,color:"white"}}/></i>
+                <div className="hr" />
+                <div className="options">
+                    <div className="liveVideo" onClick={handleClickOpen('body')}>
+                        <i className="liveVideoIcon" ><VideoCameraBackIcon sx={{width:36,height:36,color:"white"}}/></i>
                         <h2>Live video</h2>
                     </div>
-                    <div class="photo" onClick={handleClickOpen('body')}>
-                        <i class="photoIcon" ><PhotoLibraryIcon sx={{width:36,height:36,color:"white"}}/></i>
+                    <div className="photo" onClick={handleClickOpen('body')}>
+                        <i className="photoIcon" ><PhotoLibraryIcon sx={{width:36,height:36,color:"white"}}/></i>
                         <h2>Photo/Video</h2>
                     </div>
-                    <div class="feeling" onClick={handleClickOpen('body')}>
-                        <i class="feelingIcon"><EmojiEmotionsOutlinedIcon sx={{width:36,height:36,color:"white"}}/></i>
+                    <div className="feeling" onClick={handleClickOpen('body')}>
+                        <i className="feelingIcon"><EmojiEmotionsOutlinedIcon sx={{width:36,height:36,color:"white"}}/></i>
                         <h2>Feeling/Activity</h2>
                     </div>
                 </div>
             </div>
-
       </div>
+      <Post />
     </div>
   );
 };

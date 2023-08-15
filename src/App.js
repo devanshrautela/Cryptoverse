@@ -2,10 +2,9 @@ import React, { useState,useEffect } from 'react';
 import './App.css';
 import LoginPage from "./Components/LoginPage/LoginPage";
 import SignUp from "./Components/SignUp/SignUp";
-import pic from './a.jpg';
 import Posts from './Components/posts/posts';
 
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 
 function App() {
@@ -13,12 +12,10 @@ function App() {
 const changestate=()=>
 {
   setregistration(true);
-  console.log("Registration:checkup", registration);
 }
 const [registration, setregistration] = useState(false);
 
 useEffect(() => {
-  console.log("Registration has been updated:", registration);
 }, [registration]);
 
 
@@ -35,7 +32,6 @@ useEffect(() => {
       </header>
     </div>       
     </BrowserRouter>
-      { console.log("rrr",registration) } 
       </div>  
      
   );
