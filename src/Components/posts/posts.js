@@ -50,7 +50,7 @@ const Posts = () => {
   }, [open]);
 
 
-  return (
+  return (//last mai post component hai wo sare post dikhane ke liye aur baki ye upar post upload karne waala section
     <div className="posts">
       <div className="upload">
             <Dialog open={open}
