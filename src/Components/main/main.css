@@ -1,0 +1,12 @@
+body {
+    overflow-x: hidden;
+}
+
+.app__page {
+    display: flex;
+}
+
+.app__posts {
+    display: flex;
+    justify-content: center;
+}
