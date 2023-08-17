@@ -21,7 +21,7 @@ useEffect(() => {
   return (
     <div>
     <BrowserRouter>
-    <div className="App  pl7">
+    <div className="App  pl5">
       <header className="App-headers">
       <Routes>   
       <Route path="/" element={<LoginPage changestate={changestate}/>} />  

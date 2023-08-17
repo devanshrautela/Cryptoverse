@@ -9,6 +9,7 @@ import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import { Avatar } from "@mui/material";
 import Post from '../post/post';
 const Posts = () => {
   const [open, setOpen]=useState(false);
@@ -63,7 +64,7 @@ const Posts = () => {
                   </div>
                   <div className="hr2" />
                   <div className="profileHead">
-                      <img src={profile_pic} className="Avatar" alt="img"/>
+                      <Avatar src={profile_pic} className="Avatar"/>
                       <h1>User Name</h1>
                       <div className="inputForUpload">
                         <input onChange={handleChange} type="file" accept="image/*" className='four' />
@@ -91,7 +92,7 @@ const Posts = () => {
             </Dialog>
             <div className="imageupload__container">
                 <div className="postArea">
-                    <img src={profile_pic} className="Avatar" alt="" />
+                    <Avatar src={profile_pic} className="Avatar"/>
                     <input value={caption} onChange={(e) => setCaption(e.target.value)} onClick={handleClickOpen('body')} placeholder={`What's on your mind, user name`} />
                 </div>
                 <div className="hr" />
