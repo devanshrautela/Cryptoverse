@@ -1,11 +1,37 @@
+.posts {
+    flex: 1;
+    min-width: fit-content;
+    height: 920px;
+    margin-left:15%;
+}
+
+@media screen and (max-width: 1280px) {
+    .posts {
+        margin-left:0%;
+    }
+  }
+
 .imageupload__container {
     display: flex;
     flex-direction: column;
-    background-color: #242526;
+    background-color: #3A3B3C;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
     width: 600px;
+}
+
+.posts {
+    overflow-y: scroll;
+}
+
+.posts::-webkit-scrollbar {
+    display:none;
+}
+
+.posts {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .imageupload.none {
@@ -27,7 +53,7 @@
 }
 
 .postArea input {
-    background-color: #3A3B3C;
+    background-color: #595c60;
     width: 85%;
     outline: none;
     border: none;

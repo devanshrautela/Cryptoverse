@@ -53,7 +53,7 @@ const Posts = () => {
 
   return (
     <div className="posts">
-      <div className="upload">
+      <div className="imageupload">
             <Dialog open={open}
               onClose={handleClose}
               scroll={scroll}>

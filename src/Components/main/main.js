@@ -6,12 +6,12 @@ import News from '../news/news';
 const Main=()=>{
     return (
         <div className='app__page'>
-            <CurrentPrice />
-        <div className='app_posts'>
-            <Posts/>
+                <CurrentPrice />
+            <div className='app_posts'>
+                <Posts/>
+            </div>
+                <News/>
         </div>
-            <News/>
-      </div>
     )
 };
 
