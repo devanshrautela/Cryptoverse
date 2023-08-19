@@ -7,16 +7,12 @@ import Header from '../header/header';
 const Main=()=>{
     return (
         <div className='app__page'>
-            <Header/>
-            <CurrentPrice />
-        <div className='app_posts'>
-            <Posts/>
-        </div>
-            <News/>
-            <CurrentPrice />
-        <div className='app_posts'>
-            <Posts/>
-        </div>
+                <Header/>
+                <CurrentPrice />
+            <div className='app_posts'>
+                <Posts/>
+            </div>
+                <News/>
         </div>
     )
 };
