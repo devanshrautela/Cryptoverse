@@ -6,13 +6,15 @@ import News from '../news/news';
 import Header from '../header/header';
 const Main=()=>{
     return (
+        <div>
+        <Header/>
         <div className='app__page'>
-                <Header/>
                 <CurrentPrice />
             <div className='app_posts'>
                 <Posts/>
             </div>
                 <News/>
+        </div>
         </div>
     )
 };

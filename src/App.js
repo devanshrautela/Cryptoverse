@@ -5,7 +5,6 @@ import SignUp from "./Components/SignUp/SignUp";
 import Main from './Components/main/main';
 import { BrowserRouter, Route, Routes} from "react-router-dom";
 
-
 function App() {
 
 const changestate=()=>
@@ -21,7 +20,7 @@ useEffect(() => {
   return (
     <div>
     <BrowserRouter>
-    <div className="App  pl3">
+    <div className="App">
       <header className="App-headers">
       <Routes>   
       <Route path="/" element={<LoginPage changestate={changestate}/>} />  
