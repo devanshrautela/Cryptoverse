@@ -1,12 +1,44 @@
 .app__page {
     display: flex;
+    overflow-y: hidden;
+    height: 100%;
+    width: 100%;
+}
+.CurrentPriceCss{
+    /* overflow-y: scroll; */
+    width: 30%;
+    height: 100%;
+}
+.app__posts {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* overflow-y: scroll; */
+    width: 45%;
+    height: 100%;
+}
+.NewsCSS {
+    /* display: flex; */
+    justify-content: center;
+    /* overflow-y: scroll; */
+    width: 30%;
+    height: 100vh;
+    /* padding-left: 1%; */
 }
 
-.app__posts {
-    display: flex;
-    justify-content: center;
-    overflow-y: scroll;
+
+.CurrentPriceCss ::-webkit-scrollbar {
+    display: none;
 }
+
+.NewsCSS ::-webkit-scrollbar  {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.NewsCSS, .app_posts , .CurrentPriceCss  {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+} 
 
 .app__posts::-webkit-scrollbar {
     display: none;

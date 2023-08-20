@@ -1,0 +1,137 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": 
+    [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Canada wildfires: British Columbia province declares emergency",
+            "description": "A fast-moving blaze threatens to destroy more homes in the western British Columbia province.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66551480",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/12F4C/production/_130844677_canada_wildfire_getty.jpg",
+            "publishedAt": "2023-08-19T03:37:17.356008Z",
+            "content": "Media caption, WATCH: Canada wildfires: The past 48 hours in 75 seconds\r\nA state of emergency has been declared in Canada's western British Columbia province, as a fast-moving wildfire threatens to d… [+2659 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "'It started raining pine cones and tree bark'",
+            "description": "Todd Ramsay filmed trees ablaze as he and his family fled wildfire in British Columbia.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66551001",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/747F/production/_130832892_p0g7l0r0.jpg",
+            "publishedAt": "2023-08-19T00:37:19.1768571Z",
+            "content": "'It started raining pine cones and tree bark' Video, 00:00:28'It started raining pine cones and tree bark'"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC Sport",
+            "title": "The mastermind behind the Lionesses' success",
+            "description": "BBC Sport speaks to players and coaches to get an insight into Sarina Wiegman as she prepares to lead England into the World Cup final.",
+            "url": "http://www.bbc.co.uk/sport/football/62016998",
+            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/150B1/production/_130839168_gettyimages-1239012069.jpg",
+            "publishedAt": "2023-08-19T00:37:18.9112969Z",
+            "content": "Sarina Wiegman guided England to their first ever major women's trophy at Euro 2022 last year\r\n<table><tr><th>2023 Fifa Women's World Cup: Final - Spain v England</th></tr>\r\n<tr><td>Venue: Stadium Au… [+12774 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "US-Japan-SKorea summit a coup for Biden but will détente last?",
+            "description": "The US hosts its first ever joint meeting with South Korea and Japan - neighbours with a tense relationship.",
+            "url": "http://www.bbc.co.uk/news/world-asia-66543514",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8FE2/production/_130843863_d8c1e25c2039edbb4554dbffb9ded80b016f250e0_0_5004_30481000x609.jpg",
+            "publishedAt": "2023-08-19T00:37:17.4272924Z",
+            "content": "The United States and China have achieved what many deemed impossible - a historic meeting between US President Joe Biden, Japan's Prime Minister Fumio Kishida and South Korea's President Yoon Suk-ye… [+8187 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Cat and dog influencers help Ukrainians cope with war",
+            "description": "How animals' accounts have been bringing Ukrainians hope and even practical advice at a time of war.",
+            "url": "http://www.bbc.co.uk/news/world-europe-66509999",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/703A/production/_130803782_patron_dsns.jpg",
+            "publishedAt": "2023-08-19T00:37:16.2228558Z",
+            "content": "From fundraising to detecting explosives, cats and dogs have been helping Ukrainians deal with the devastating impact of Russia's invasion.\r\nPatron, the mine-sniffing dog, is one of them. He works fo… [+5583 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Ukraine war: US allows transfer of Danish and Dutch F-16 war planes to Kyiv",
+            "description": "US-made jets in Denmark and the Netherlands can be sent to Ukraine when its pilots are fully trained.",
+            "url": "http://www.bbc.co.uk/news/world-europe-66551478",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1CB0/production/_130844370_1e37e9566391acc7064b54541ebc2be626528a83-1.jpg",
+            "publishedAt": "2023-08-18T23:07:16.8180186Z",
+            "content": "The US has approved the transfer to Ukraine of American-made F-16 fighter jets from Denmark and the Netherlands when Ukrainian pilots are fully trained to operate them. \r\n\"This way, Ukraine can take … [+3067 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Twitter, now X, to remove blocking feature",
+            "description": "Elon Musk says the feature \"makes no sense\", but users are concerned about protection from abuse.",
+            "url": "http://www.bbc.co.uk/news/business-66550959",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/25A2/production/_130843690_xsocialmedialogo.jpg",
+            "publishedAt": "2023-08-18T19:52:24.6619219Z",
+            "content": "The blocking feature will be removed for users of X, formerly Twitter, Elon Musk has announced, claiming the feature \"makes no sense\".\r\nThe X boss said users will still be able to block people from d… [+3017 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "The moment Southwest plane catches fire mid-flight",
+            "description": "Eyewitness video shows flames near the engine of the Boeing 737 shortly after take-off.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66549439",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/133E7/production/_130832887_p0g7jw3w.jpg",
+            "publishedAt": "2023-08-18T19:22:25.3334733Z",
+            "content": "Video from onboard a Southwest Airlines flight shows flames bursting near the engine of a Boeing 737 shortly after take-off, on a flight from Houston to Cancun on Tuesday.\r\nThe plane made an emergenc… [+251 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Hospital bosses ignored months of doctors' warnings about Lucy Letby",
+            "description": "Hospital bosses failed to investigate allegations and tried to silence doctors, BBC investigation finds.",
+            "url": "http://www.bbc.co.uk/news/uk-66120934",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/185C4/production/_130308799_consultant_index_2x976-nc.png",
+            "publishedAt": "2023-08-18T15:37:23.9737759Z",
+            "content": "Hospital bosses failed to investigate allegations against Lucy Letby and tried to silence doctors, the lead consultant at the neonatal unit where she worked has told the BBC.\r\nThe hospital also delay… [+15692 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Hurricane Hilary: Category 4 hurricane approaches California",
+            "description": "Hilary is expected to become a tropical storm - the first in 80 years to make landfall in California.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-66499946",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C8C1/production/_130839315_hurricane.jpg",
+            "publishedAt": "2023-08-18T14:07:26.4587487Z",
+            "content": "A rapidly intensifying hurricane with 145mph (233km/h) wind speed is headed toward the US South West.\r\nThe Category 4 hurricane, named Hurricane Hilary, is predicted to first make landfall in Baja Ca… [+1738 chars]"
+        }
+    ]
+}

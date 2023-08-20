@@ -1,0 +1,30 @@
+.news-component{
+    overflow-y: scroll;
+    /* width: 95%; */
+    height: 100%;
+}
+.news-component::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.news-component {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.image-news{
+    height:50%;
+    width:100%
+}
+.news-card{
+    background-color: rgb(69, 51, 77);
+    
+    /* ... other styles ... */
+    /* overflow: hidden; */
+  }
+  
+  /* .news-card .dt {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  } */

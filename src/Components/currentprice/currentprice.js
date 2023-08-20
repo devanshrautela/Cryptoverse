@@ -73,7 +73,7 @@ const CurrentPrice = () => {
                 <div className="coin-row">
                   <div className="coin">
                     <img src={coin.image} alt="crypto" />
-                    <h1>{coin.name}</h1>
+                    <h1 >{coin.name}</h1>
                     <p className="coin-symbol">{coin.symbol}</p>
                   </div>
                   <div className="coin-data">
