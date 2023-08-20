@@ -4,7 +4,7 @@ import LoginPage from "./Components/LoginPage/LoginPage";
 import SignUp from "./Components/SignUp/SignUp";
 import Main from './Components/main/main';
 import { BrowserRouter, Route, Routes} from "react-router-dom";
-
+import Profile from './Components/profile/profile';
 function App() {
 
 const changestate=()=>
@@ -26,6 +26,7 @@ useEffect(() => {
       <Route path="/" element={<LoginPage changestate={changestate}/>} />  
       <Route path="/main" element={<Main />}/>
       <Route path="/SignUp" element={ <SignUp /> }/>   
+      <Route path="/profile" element={ <Profile /> }/>   
       </Routes>
       </header>
     </div>       

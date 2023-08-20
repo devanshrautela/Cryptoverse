@@ -1,7 +1,8 @@
 .news-component{
-    overflow-y: scroll;
-    /* width: 95%; */
-    height: 100%;
+    overflow: scroll;
+     width: 30%; 
+    height: 880px;
+    margin-left: 9%;
 }
 .news-component::-webkit-scrollbar {
     display: none;
@@ -14,17 +15,16 @@
 }
 .image-news{
     height:50%;
-    width:100%
+    width: 100%;
 }
 .news-card{
-    background-color: rgb(69, 51, 77);
-    
-    /* ... other styles ... */
-    /* overflow: hidden; */
+    background-color: #3A3B3C;    
+  }
+
+  .news-heading{
+    color: white;
+    text-align: center;
+    font-size: 32px;
   }
   
-  /* .news-card .dt {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  } */
+ 

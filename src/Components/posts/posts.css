@@ -1,8 +1,8 @@
 .posts {
     flex: 1;
     min-width: fit-content;
-    height: 100vh;
-    /* margin-left:22%; */
+    height: 49%;
+    margin-left:20%; 
 }
 
 @media screen and (max-width: 1280px) {

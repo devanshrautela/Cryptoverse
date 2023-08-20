@@ -1,0 +1,42 @@
+
+.profile-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    padding-top: 40px;
+}
+
+.profile-details{
+    padding: 10px 60px 0 60px;
+}
+
+.edit{
+    margin-bottom: 25px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 5px 5px;
+} 
+
+.user-posts {
+    overflow-y: scroll;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    min-width: fit-content;
+    margin-top: 40px;
+}
+
+
+.user-posts::-webkit-scrollbar {
+    display:none;
+}
+
+.user-posts {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+
+
