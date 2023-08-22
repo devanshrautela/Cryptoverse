@@ -1,22 +1,15 @@
 .app__page {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-}
-.currentprices,.app_news{
-    flex: 25%;
 }
 .app__posts {
     display: flex; 
-    flex: 50%;
+   
 }
 .app__posts::-webkit-scrollbar {
     display: none;
 }
 
-.app_news{
-    margin-left: 2%;
-}
 .app__posts {
   scrollbar-width: none;  
   -ms-overflow-style: none;  
