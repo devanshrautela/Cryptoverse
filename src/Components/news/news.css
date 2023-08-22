@@ -1,6 +1,7 @@
 .news-component{
     overflow: scroll;
     height: 880px;
+    width: 100%;
 }
 .news-component::-webkit-scrollbar {
     display: none;

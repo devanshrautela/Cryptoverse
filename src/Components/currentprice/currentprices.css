@@ -1,4 +1,5 @@
 .current-prices {
+    flex: 0.2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +9,7 @@
     height: 100%;
     border-radius: 20px;
     padding-bottom: 30px;
-  
+    margin-right: 40px;
   }
   .dialog{
       overflow-y: scroll;

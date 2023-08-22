@@ -1,6 +1,6 @@
 .app__page {
     display: flex;
-    justify-content: center;
+  
 }
 .app__posts {
     display: flex; 

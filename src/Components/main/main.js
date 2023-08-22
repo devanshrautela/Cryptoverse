@@ -9,16 +9,11 @@ const Main=()=>{
     <>
         <Header/>
         <div className='app__page'>
-            <div className="currentprices">
-                < CurrentPrice/> 
-            </div>
+            < CurrentPrice/> 
             <div className='app_posts '>
                 <Posts/>
             </div>
-            <div className="app_news">
-                <News/>
-            </div>
-            
+            <News/>
         </div>
         </>      
     )
